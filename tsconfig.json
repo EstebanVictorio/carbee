@@ -20,7 +20,8 @@
     "paths": {
       "components/*": ["components/*"],
       "blocks/*": ["blocks/*"],
-      "utils/*": ["utils/*"]
+      "utils/*": ["utils/*"],
+      "services/*": ["services/*"],
     },
     "plugins": [
       {

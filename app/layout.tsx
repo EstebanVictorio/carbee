@@ -10,7 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <main>
+          <main className="h-screen">
             {children}
           </main>
         </Providers>
