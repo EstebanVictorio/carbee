@@ -1,0 +1,28 @@
+{
+  "name": "carbee",
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "@nextui-org/react": "2.1.10",
+    "autoprefixer": "10.4.15",
+    "clsx": "2.0.0",
+    "framer-motion": "10.16.2",
+    "next": "latest",
+    "postcss": "8.4.29",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "3.3.3",
+    "ts-pattern": "5.0.5",
+    "valibot": "0.13.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.9",
+    "@types/react": "18.2.21",
+    "typescript": "5.2.2"
+  }
+}
