@@ -1,0 +1,18 @@
+{
+  "pomodoros": [
+    { "title": "initial commit, README and Boilerplate", "time": 25, "timeUnit": "mins" },
+    { "title": "checking auth endpoint and configure initial env vars", "time": 25, "timeUnit": "mins" },
+    { "title": "added NextUI and finishing configuring TailwindCSS", "time": 25, "timeUnit": "mins" },
+    { "title": "added Middleware for redirect to Login if session cookie is not present", "time": 25, "timeUnit": "mins" },
+    { "title": "finishing Middleware logic for redirect to Login if session cookie is not present", "time": 25, "timeUnit": "mins" }
+    { "title": "debugging middleware response for unexpected syntax error from Next.js", "time": 25, "timeUnit": "mins" }
+  ],
+  "breaks": [
+    { "title": "initial commit, README and Boilerplate", "time": 5, "timeUnit": "mins" },
+    { "title": "checking auth endpoint and configure initial env vars", "time": 5, "timeUnit": "mins" },
+    { "title": "added NextUI and finishing configuring TailwindCSS", "time": 55, "timeUnit": "mins" },
+    { "title": "added Middleware for redirect to Login if session cookie is not present", "time": 5, "timeUnit": "mins" },
+    { "title": "finishing Middleware logic for redirect to Login if session cookie is not present", "time": 5, "timeUnit": "mins" },
+    { "title": "debugging middleware response for unexpected syntax error from Next.js", "time": 5, "timeUnit": "mins" }
+  ]
+}
