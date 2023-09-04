@@ -11,8 +11,14 @@ const rewrites = async () => {
   ]
 }
 
+/**
+ * @type {NextConfig} nextConfig
+ */
 const nextConfig = {
   rewrites,
+  experimental: {
+    serverActions: true,
+  }
 }
 
 

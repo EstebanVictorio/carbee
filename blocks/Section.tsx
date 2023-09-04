@@ -1,10 +1,20 @@
+import clsx from "clsx"
+
 type Props = {
   children?: React.ReactNode
+  className?: string
 }
 
-const Section = ({ children }:Props) => {
+const baseUtils = "px-8"
+
+const Section = ({ children, className: propClassName }:Props) => {
+  const className = clsx(
+    baseUtils,
+    propClassName,
+  )
+
   return (
-    <section className="px-8">
+    <section className={className}>
       {children}
     </section>
   )
