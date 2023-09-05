@@ -11,8 +11,10 @@ type Rule = (args: ServerRuleArgs) => boolean
 
 const login: Rule = ({ request }) => request.url.includes('/login')
 const authenticated: Rule = ({ cookies }) => !!cookies.get('X-Carbee-Session')
+const index: Rule = ({ request }) => request.url.endsWith("/")
 
 export const rules = {
   login,
   authenticated,
+  index,
 }

@@ -6,16 +6,17 @@ const ds = Dancing_Script({
   display: "swap",
 })
 
-const baseUtils = "mx-auto"
 const baseColorUtils = "text-white"
-const baseFontUtils = "text-9xl text-center"
 
-const Logo = () => {
+type Props = {
+  className?: string
+}
+
+const Logo = ({ className: propClassName }: Props) => {
   const className = clsx(
-    baseUtils,
     baseColorUtils,
-    baseFontUtils,
     ds.className,
+    propClassName,
   )
 
   return (

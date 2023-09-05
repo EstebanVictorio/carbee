@@ -1,20 +1,6 @@
 'use server'
-import { redirect } from 'next/navigation'
-import { cookies } from 'next/headers'
-import { services } from "services"
-import addHours from 'date-fns/addHours'
+import { login as mutation } from "./mutation"
+import { login as schema } from "./schema"
+import { createAction } from "utils/validation"
 
-export const action = async (formData: FormData) => {
-  const { login } = services
-  const data: AuthenticationResponse = await login({
-    email: formData.get('email') as string,
-    password: formData.get('password') as string,
-  })
-
-  if(data.token) {
-    const cookieStore = cookies()
-    const thirtySecsFromNow = addHours(new Date(), 1)
-    cookieStore.set("X-Carbee-Session", data.token, { httpOnly: true, expires: thirtySecsFromNow })
-    return redirect("/")
-  }
-}
+export const action = createAction({ schema, mutation })

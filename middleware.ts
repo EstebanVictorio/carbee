@@ -7,14 +7,22 @@ import { match } from "ts-pattern"
 export function middleware(request: NextRequest) {
   const cookieStore = cookies()
 
+  const isHome = rules.index({ request })
   const isLogin = rules.login({ request })
   const isAuthenticated = rules.authenticated({ cookies: cookieStore })
 
+  if (isHome) {
+    return match(isAuthenticated)
+      .with(true, () => NextResponse.redirect(new URL("/dashboard", request.url)))
+      .with(false, () => NextResponse.redirect(new URL("/login", request.url)))
+      .exhaustive()
+  }
+
   return match([
-    isLogin, isAuthenticated
+    isLogin, isAuthenticated,
   ])
     .with([false, false], () => NextResponse.redirect(new URL("/login", request.url)))
-    .with([true, true], () => NextResponse.redirect(new URL("/", request.url)))
+    .with([true, true], () => NextResponse.redirect(new URL("/dashboard", request.url)))
     .with([true, false], () => NextResponse.next())
     .with([false, true], () => NextResponse.next())
     .exhaustive()

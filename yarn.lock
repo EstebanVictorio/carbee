@@ -179,72 +179,72 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/env@npm:13.4.19"
-  checksum: ace4f82890954ade0164fbe2b7ff988268d2b99b2e80caa6707c51fa4cbfaaa31e48fbbcecd4fd142af3503c544e1b4c91e8185d4af253c8fb46550e9e70ad7e
+"@next/env@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/env@npm:13.4.15"
+  checksum: 3e2e6600b784b44b0c3795000856b35601b3504f3cd2736ebaa8d442718eea3bf564a2e05003dd5b871f8b1fc7360696df1c7023d3b7ab42087b167f57424504
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-darwin-arm64@npm:13.4.19"
+"@next/swc-darwin-arm64@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-darwin-arm64@npm:13.4.15"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-darwin-x64@npm:13.4.19"
+"@next/swc-darwin-x64@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-darwin-x64@npm:13.4.15"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-linux-arm64-gnu@npm:13.4.19"
+"@next/swc-linux-arm64-gnu@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-linux-arm64-gnu@npm:13.4.15"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-linux-arm64-musl@npm:13.4.19"
+"@next/swc-linux-arm64-musl@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-linux-arm64-musl@npm:13.4.15"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-linux-x64-gnu@npm:13.4.19"
+"@next/swc-linux-x64-gnu@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-linux-x64-gnu@npm:13.4.15"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-linux-x64-musl@npm:13.4.19"
+"@next/swc-linux-x64-musl@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-linux-x64-musl@npm:13.4.15"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-win32-arm64-msvc@npm:13.4.19"
+"@next/swc-win32-arm64-msvc@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-win32-arm64-msvc@npm:13.4.15"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-win32-ia32-msvc@npm:13.4.19"
+"@next/swc-win32-ia32-msvc@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-win32-ia32-msvc@npm:13.4.15"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-win32-x64-msvc@npm:13.4.19"
+"@next/swc-win32-x64-msvc@npm:13.4.15":
+  version: 13.4.15
+  resolution: "@next/swc-win32-x64-msvc@npm:13.4.15"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1361,6 +1361,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@popperjs/core@npm:^2.11.8":
+  version: 2.11.8
+  resolution: "@popperjs/core@npm:2.11.8"
+  checksum: e5c69fdebf52a4012f6a1f14817ca8e9599cb1be73dd1387e1785e2ed5e5f0862ff817f420a87c7fc532add1f88a12e25aeb010ffcbdc98eace3d55ce2139cf0
+  languageName: node
+  linkType: hard
+
 "@react-aria/accordion@npm:3.0.0-alpha.20":
   version: 3.0.0-alpha.20
   resolution: "@react-aria/accordion@npm:3.0.0-alpha.20"
@@ -2376,7 +2383,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.21":
+"@types/react-dom@npm:18.2.7":
+  version: 18.2.7
+  resolution: "@types/react-dom@npm:18.2.7"
+  dependencies:
+    "@types/react": "*"
+  checksum: e02ea908289a7ad26053308248d2b87f6aeafd73d0e2de2a3d435947bcea0422599016ffd1c3e38ff36c42f5e1c87c7417f05b0a157e48649e4a02f21727d54f
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:18.2.21":
   version: 18.2.21
   resolution: "@types/react@npm:18.2.21"
   dependencies:
@@ -2624,14 +2640,18 @@ __metadata:
     "@nextui-org/react": 2.1.10
     "@types/node": 20.5.9
     "@types/react": 18.2.21
+    "@types/react-dom": 18.2.7
     autoprefixer: 10.4.15
     clsx: 2.0.0
     date-fns: 2.30.0
     framer-motion: 10.16.2
-    next: latest
+    next: 13.4.15
     postcss: 8.4.29
     react: latest
+    react-datepicker: 4.16.0
     react-dom: latest
+    swr: 2.2.2
+    tailwind-datepicker-react: 1.4.2
     tailwindcss: 3.3.3
     ts-pattern: 5.0.5
     typescript: 5.2.2
@@ -2665,6 +2685,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"classnames@npm:^2.2.6":
+  version: 2.3.2
+  resolution: "classnames@npm:2.3.2"
+  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
+  languageName: node
+  linkType: hard
+
 "clean-stack@npm:^2.0.0":
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
@@ -2672,7 +2699,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"client-only@npm:0.0.1":
+"client-only@npm:0.0.1, client-only@npm:^0.0.1":
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
   checksum: 0c16bf660dadb90610553c1d8946a7fdfb81d624adea073b8440b7d795d5b5b08beb3c950c6a2cf16279365a3265158a236876d92bce16423c485c322d7dfaf8
@@ -2800,7 +2827,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:2.30.0":
+"date-fns@npm:2.30.0, date-fns@npm:^2.30.0":
   version: 2.30.0
   resolution: "date-fns@npm:2.30.0"
   dependencies:
@@ -3425,7 +3452,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -3651,20 +3678,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:latest":
-  version: 13.4.19
-  resolution: "next@npm:13.4.19"
+"next@npm:13.4.15":
+  version: 13.4.15
+  resolution: "next@npm:13.4.15"
   dependencies:
-    "@next/env": 13.4.19
-    "@next/swc-darwin-arm64": 13.4.19
-    "@next/swc-darwin-x64": 13.4.19
-    "@next/swc-linux-arm64-gnu": 13.4.19
-    "@next/swc-linux-arm64-musl": 13.4.19
-    "@next/swc-linux-x64-gnu": 13.4.19
-    "@next/swc-linux-x64-musl": 13.4.19
-    "@next/swc-win32-arm64-msvc": 13.4.19
-    "@next/swc-win32-ia32-msvc": 13.4.19
-    "@next/swc-win32-x64-msvc": 13.4.19
+    "@next/env": 13.4.15
+    "@next/swc-darwin-arm64": 13.4.15
+    "@next/swc-darwin-x64": 13.4.15
+    "@next/swc-linux-arm64-gnu": 13.4.15
+    "@next/swc-linux-arm64-musl": 13.4.15
+    "@next/swc-linux-x64-gnu": 13.4.15
+    "@next/swc-linux-x64-musl": 13.4.15
+    "@next/swc-win32-arm64-msvc": 13.4.15
+    "@next/swc-win32-ia32-msvc": 13.4.15
+    "@next/swc-win32-x64-msvc": 13.4.15
     "@swc/helpers": 0.5.1
     busboy: 1.6.0
     caniuse-lite: ^1.0.30001406
@@ -3703,7 +3730,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: f4873dab8888ed4dae14d36d7cf8dc54cd042695cf7ee41d05e8757f463d11952a594eb066143cc2f7253ea1d41c6efe681cdc3ab8c2fa6eb0815fa5a94de3dc
+  checksum: ca96ef7f2e16de7595fb6297b966b2c0cb01258442604ad26ede6d01698e0c3c1dbb8c29590e8704c7d335bd8fff9e34cb8088afc112eaff84cb6280dd12f127
   languageName: node
   linkType: hard
 
@@ -3772,7 +3799,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-assign@npm:^4.0.1":
+"object-assign@npm:^4.0.1, object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
   checksum: fcc6e4ea8c7fe48abfbb552578b1c53e0d194086e2e6bbbf59e0a536381a292f39943c6e9628af05b5528aa5e3318bb30d6b2e53cadaf5b8fe9e12c4b69af23f
@@ -3965,10 +3992,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.7.2":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
+  languageName: node
+  linkType: hard
+
 "queue-microtask@npm:^1.2.2":
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: b676f8c040cdc5b12723ad2f91414d267605b26419d5c821ff03befa817ddd10e238d22b25d604920340fd73efd8ba795465a0377c4adf45a4a41e4234e42dc4
+  languageName: node
+  linkType: hard
+
+"react-datepicker@npm:4.16.0":
+  version: 4.16.0
+  resolution: "react-datepicker@npm:4.16.0"
+  dependencies:
+    "@popperjs/core": ^2.11.8
+    classnames: ^2.2.6
+    date-fns: ^2.30.0
+    prop-types: ^15.7.2
+    react-onclickoutside: ^6.12.2
+    react-popper: ^2.3.0
+  peerDependencies:
+    react: ^16.9.0 || ^17 || ^18
+    react-dom: ^16.9.0 || ^17 || ^18
+  checksum: 59da0305ca3a353ca007cf526320335790d73108942cc8f0d7177a1dfd020b28c5ea70f9d042f240cd2eadd09b3aa22357e6b6f509b42b6d8d51d73d20c97476
   languageName: node
   linkType: hard
 
@@ -3981,6 +4036,44 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7d323310bea3a91be2965f9468d552f201b1c27891e45ddc2d6b8f717680c95a75ae0bc1e3f5cf41472446a2589a75aed4483aee8169287909fcd59ad149e8cc
+  languageName: node
+  linkType: hard
+
+"react-fast-compare@npm:^3.0.1":
+  version: 3.2.2
+  resolution: "react-fast-compare@npm:3.2.2"
+  checksum: 2071415b4f76a3e6b55c84611c4d24dcb12ffc85811a2840b5a3f1ff2d1a99be1020d9437ee7c6e024c9f4cbb84ceb35e48cf84f28fcb00265ad2dfdd3947704
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.13.1":
+  version: 16.13.1
+  resolution: "react-is@npm:16.13.1"
+  checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-onclickoutside@npm:^6.12.2":
+  version: 6.13.0
+  resolution: "react-onclickoutside@npm:6.13.0"
+  peerDependencies:
+    react: ^15.5.x || ^16.x || ^17.x || ^18.x
+    react-dom: ^15.5.x || ^16.x || ^17.x || ^18.x
+  checksum: a7cfe62e91f7f92891cda7b885d6eec7b2854850f8703ccafcea5c04bb93a210a566a70b51b9fae0cc30c3485e04eb6a3f3ae58f495cac3ec2747b4fc44d1ad2
+  languageName: node
+  linkType: hard
+
+"react-popper@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "react-popper@npm:2.3.0"
+  dependencies:
+    react-fast-compare: ^3.0.1
+    warning: ^4.0.2
+  peerDependencies:
+    "@popperjs/core": ^2.0.0
+    react: ^16.8.0 || ^17 || ^18
+    react-dom: ^16.8.0 || ^17 || ^18
+  checksum: 837111c98738011c69b3069a464ea5bdcbf487105b6148e8faf90cb7337e134edb1b98b8824322941c378756cca30a15c18c25f558e53b85ed5762fa0dc8e6b2
   languageName: node
   linkType: hard
 
@@ -4384,7 +4477,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^1.13.2":
+"swr@npm:2.2.2":
+  version: 2.2.2
+  resolution: "swr@npm:2.2.2"
+  dependencies:
+    client-only: ^0.0.1
+    use-sync-external-store: ^1.2.0
+  peerDependencies:
+    react: ^16.11.0 || ^17.0.0 || ^18.0.0
+  checksum: afb3d4824f7631bc3a045483f4e4beb5ca9bfa82b64690b3d1133cdf0666ad8e4a9a879657fac5b34dbf19ea9a1503cf92c9bde972f3d40cefe434c73bd9627a
+  languageName: node
+  linkType: hard
+
+"tailwind-datepicker-react@npm:1.4.2":
+  version: 1.4.2
+  resolution: "tailwind-datepicker-react@npm:1.4.2"
+  dependencies:
+    tailwind-merge: ^1.6.1
+  peerDependencies:
+    react: ">=17"
+    react-dom: ">=17"
+    tailwindcss: ">=3"
+  checksum: 66ee91a0e7134f4f0fb8861af6affd83dac783ff0473eb92f13babe4f0981c9dffacef317d47934b15343dc447051dfe3416305c7b0e738f0517146ec901c6d6
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:^1.13.2, tailwind-merge@npm:^1.6.1":
   version: 1.14.0
   resolution: "tailwind-merge@npm:1.14.0"
   checksum: 8cf5d37f51b3b32e4bdd5544feaed34357bfba2f64f14834cc4a21ac29b0ae22d7255386467a0f1dadb3e38499389efbbabeddcd0b16571af5a0d346a4921877
@@ -4615,6 +4733,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"use-sync-external-store@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "use-sync-external-store@npm:1.2.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 5c639e0f8da3521d605f59ce5be9e094ca772bd44a4ce7322b055a6f58eeed8dda3c94cabd90c7a41fb6fa852210092008afe48f7038792fd47501f33299116a
+  languageName: node
+  linkType: hard
+
 "util-deprecate@npm:^1.0.1, util-deprecate@npm:^1.0.2":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
@@ -4626,6 +4753,15 @@ __metadata:
   version: 0.13.1
   resolution: "valibot@npm:0.13.1"
   checksum: f7c8a1b6dbd2b0cd1a200bfa6d85e5ce0bae3a723e1a691ac89fead3579af5561762a37563b27d9cf22c281b99890dea7cebab47ea579d4d9e1ba47e63b56e32
+  languageName: node
+  linkType: hard
+
+"warning@npm:^4.0.2":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 4f2cb6a9575e4faf71ddad9ad1ae7a00d0a75d24521c193fa464f30e6b04027bd97aa5d9546b0e13d3a150ab402eda216d59c1d0f2d6ca60124d96cd40dfa35c
   languageName: node
   linkType: hard
 
