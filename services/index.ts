@@ -5,7 +5,7 @@ const login = async ({
   password,
 }: { email: string, password: string }) => {
   try {
-    const response = await fetch(process.env.API_URL + "/api/auth", {
+    const response = await fetch(`${process.env.API_URL}/api/auth`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username: email, password }),
@@ -24,7 +24,7 @@ const appointments = async ({
   headers,
 }: { before?: string, after?: string, headers?: Record<string, string> }) => {
   try {
-    const url = new URL(process.env.API_URL + "/api/appointments")
+    const url = new URL(`${process.env.API_URL}/api/appointments`)
     url.searchParams.set('size', '10')
 
     match({ before: !!before, after: !!after })
