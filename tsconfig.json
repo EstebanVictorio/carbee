@@ -18,10 +18,18 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "components/*": ["components/*"],
-      "blocks/*": ["blocks/*"],
-      "utils/*": ["utils/*"],
-      "services/*": ["services/*"],
+      "components/*": [
+        "components/*"
+      ],
+      "blocks/*": [
+        "blocks/*"
+      ],
+      "utils/*": [
+        "utils/*"
+      ],
+      "services/*": [
+        "services/*"
+      ]
     },
     "plugins": [
       {
@@ -31,7 +39,8 @@
     "typeRoots": [
       "./node_modules/@types",
       "./app/@types"
-    ]
+    ],
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "next-env.d.ts",

@@ -15,7 +15,7 @@ const Guest = () => {
   return (
     <Navbar className={className}>
       <NavbarBrand>
-        <Logo />
+        <Logo className="text-9xl text-center mx-auto"/>
       </NavbarBrand>
     </Navbar>
   )
