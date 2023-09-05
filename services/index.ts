@@ -5,7 +5,8 @@ const login = async ({
   password,
 }: { email: string, password: string }) => {
   try {
-    const response = await fetch(`${process.env.API_URL}/api/auth`, {
+    const url = new URL(`${process.env.API_URL}/api/auth`)
+    const response = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username: email, password }),
