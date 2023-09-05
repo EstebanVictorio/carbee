@@ -16,7 +16,7 @@ type Props = {
 }
 
 const Appointment = ({ date, open, appointment, handleCloseClick }: Props) => {
-  const { data, isLoading, } = useSWR<string[]>(`/api/availability?date=${date}`, async (url) => {
+  const { data, isLoading, } = useSWR<string[]>("/api/availability?date=" + date, async (url) => {
     if(!date) {
       return []
     }
