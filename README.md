@@ -4,6 +4,24 @@
 ## Carbee is a recent,  Curbee-like vendor, that's striving for success with minimal resources.
 
 
+## Installation and run
+
+### Installation Prerequisites:
+
+- Node.js (16.13.1 and onwards)
+- Yarn (stable version, not classic)
+
+### Steps to run
+
+1. Once your prerequisites are in place, you can proceed to install dependencies by running `yarn` inside the project repo.
+2. After that, you have to create an `.env.development` environment variable file with the following content:
+
+```env
+API_URL="your_backend_url_here" # <- the value of this can be found in the "Carbee - Next.js Exercise.pdf" file
+```
+
+3. Finally, after those steps are in place, you can run `yarn dev` to make the project available at the following url: `http://localhost:3000` (it'll take a bit to render due to compile/build time)
+
 
 ## Project Reflection
 
@@ -35,7 +53,7 @@ my evaluating it?
 
 Answer: Nothing that I can think of exceptionally, except:
 
-   - I didn't add a loading state for login, I forgot it 😅, but it should work properly.
+   - I didn't add a redirect to login when services no longer allow auth given the cookie expiration.
 
 5. How long did you spend on this exercise? If you had unlimited
 more time to spend on this, how would you spend it and how would
@@ -43,4 +61,4 @@ you prioritize each item?
 
 Answer: I've added a `time-tracking.json` file where I logged every work session I spent on this. You are free to check it.
 
-Also, I would add the missing loading for login 😅
+Also, I would add the missing redirection to login if services fail auth 😅
